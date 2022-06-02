@@ -24,7 +24,7 @@ const dataBelanjaan = [
 const listBelanjaan = function(data) {
   const all_data = [];
   data.forEach(item => {
-    all_data.push(`- ${item.nama} x${item.kuantitas}`)
+    all_data.push(`- ${item.nama} x ${item.kuantitas}`)
   })
   return all_data;
 };
